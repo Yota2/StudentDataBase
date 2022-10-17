@@ -1,0 +1,59 @@
+Great Assignment!
+
+This Assignment is NOT part of the application assignment with Employment!
+
+You do make these during the two days you are at DIGITAL CITY. Next week I will correct these assignments and call you.
+The idea is that you try to make at least 1 of the assignments. You may do both of them.
+You may ask for help from your fellow students, but you may only ask for help from the instructors if your program does not load the correct dependencies.
+
+
+ASSIGNMENT 1: JUnit & Mockito
+
+Link: https://github.com/PearlDS/OPDRACHTTESTING.git
+
+You're working with a program that already has a few methods, and you'd like to test them out. But the Database isn't working, so you can't test your methods as you should.
+
+The methods you need to test are in the following classes:
+ComputerServiceImpl
+LoanReceiptServiceImpl
+An example of a method already written out:
+
+
+
+
+
+The classes in which you need to test the methods are already written out, with the methods you need to test.
+For example:
+
+
+
+'StudentServiceTester' already has a few Demo methods you can use as examples.
+
+YOU DON'T CHANGE ANYTHING IN THE SERVICE CLASSES!!!
+The idea is that you only test the methods. There are going to be 2 Methods that do NOT work. Everything else will work. When you know which methods don't work, write a comment above the methods you think don't work.
+For example:
+
+ASSIGNMENT 2: Spring MVC Business Logic
+
+Link: https://github.com/PearlDS/OPDRACHTMVC.git
+
+You get an application with a MockDatabase with data, Repositories and Controllers already working.
+Run the application and surf to: http://localhost:8080/allCourses
+Now click on all the links you see and try out a few things.
+You'll notice that some things work, some things don't.
+
+You are going to have to modify methods in the Service layer so that the application works.
+
+You're going to work in the following classes, and complete following methods:
+LoanReceiptServiceImpl:
+- getAllOpenReceiptsLongerThan9Months()
+- loanComputerToStudent(Computer computer, Student student)
+StudentServiceImpl:
+- createStudent(Student student)
+
+You are going to look at what each method should do, and using your own logic,
+you are going to try to make these methods work.
+You may use any other methods you see. You're not going to have to make new methods,
+but you may if you don't see any other solution.
+
+BONUS: If you still have time, you may make your own ComputerController and computerfront end, in which that you can use all the methods of the computerService!
